@@ -1,0 +1,12 @@
+# Import packages
+import re
+# Specify the title of the Wikipedia page
+text = open("Todas.txt")
+# Extract the plain text content of the page
+with open('Todas.txt') as f:
+    text = f.read()
+# Clean text
+text = re.sub(r'==.*?==+', '', text)
+text = text.replace('\n', '')
+
+print(text)
