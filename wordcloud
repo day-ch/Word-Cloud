@@ -1,0 +1,6 @@
+# Import package
+from wordcloud import WordCloud, STOPWORDS
+# Generate word cloud
+wordcloud = WordCloud(width = 3000, height = 2000, random_state=1, background_color='black', colormap='Pastel1', collocations=False, stopwords = stop_words).generate(text2)
+# Plot
+plot_cloud(wordcloud)
