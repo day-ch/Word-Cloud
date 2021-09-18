@@ -1,0 +1,9 @@
+# 2) Remover essas stopwords
+tokenized_word_3=[]
+for w in tokenized_word_2:
+    if w not in stop_words:
+        tokenized_word_3.append(w)
+
+# se quiser comparar o antes e depois da remoção das stopwords
+print("Tokenized Word:",tokenized_word)
+print("Filterd Word:",tokenized_word_3)
