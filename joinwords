@@ -1,0 +1,2 @@
+text2= ' '.join(tokenized_word_3)
+print (text2)
