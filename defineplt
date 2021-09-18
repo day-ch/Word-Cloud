@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+# Define a function to plot word cloud
+def plot_cloud(wordcloud):
+    # Set figure size
+    plt.figure(figsize=(40, 30))
+    # Display image
+    plt.imshow(wordcloud) 
+    # No axis details
+    plt.axis("off");
