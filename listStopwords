@@ -1,0 +1,6 @@
+# Aqui, vamos retirar as chamadas stopwords (conjuncoes, preposicoes, palavras que não nos interessam)
+# 1) Vamos ver quais stopwords ja existem na biblioteca
+from nltk.corpus import stopwords
+nltk.download('stopwords')
+stop_words = set(stopwords.words("portuguese"))
+print(stop_words)
