@@ -1,0 +1,6 @@
+tokenized_word=word_tokenize(text)
+print(tokenized_word)
+
+# Palavras em letras minusculas
+tokenized_word_2 = [w.lower() for w in tokenized_word]
+print(tokenized_word_2)
